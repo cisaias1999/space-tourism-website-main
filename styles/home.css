@@ -123,9 +123,14 @@ h5 {
   right: 0;
   top: 0px;
   background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(81.5485px) contrast(1);;
+  backdrop-filter: blur(81.5485px) ;
+  -webkit-backdrop-filter: blur(81.5485px)
 }
-
+/*
+.active::-webkit-scrollbar {
+    backdrop-filter: blur(81.5485px) contrast(1);
+  }
+*/
 .closed_menu {
   margin: 32px 0px 0px 208px;
 }
