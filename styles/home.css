@@ -123,7 +123,7 @@ h5 {
   right: 0;
   top: 0px;
   background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(81.5485px);
+  backdrop-filter: blur(81.5485px) contrast(1);;
 }
 
 .closed_menu {
