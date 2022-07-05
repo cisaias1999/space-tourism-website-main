@@ -131,8 +131,8 @@ h5 {
 }
 
 ul {
-    margin-top: 61px;
-    margin-left: 33px;
+  margin-top: 61px;
+  margin-left: 33px;
   list-style: none;
 }
 
@@ -154,7 +154,6 @@ li a {
   line-height: 19px;
   letter-spacing: 2.7px;
   color: #ffffff;
-
 }
 a {
   text-decoration: none;
