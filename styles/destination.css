@@ -109,6 +109,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 190px;
 }
 .name_planet {
   margin-top: 30px;
@@ -173,4 +174,12 @@ color: #FFFFFF;
 }
 .travel h2{
     margin-bottom: 60px;
+}
+button{
+  background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
 }
