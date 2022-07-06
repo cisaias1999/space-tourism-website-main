@@ -8,27 +8,13 @@ html {
   font-size: 62.5%;
   font-family: "Space Mono", monospace;
 }
-nav {
-  position: relative;
-  width: 100%;
-  height: 90px;
-  border: 0px solid rgba(255, 255, 255, 0);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
 body {
   background-image: url("../starter-code/assets/home/background-home-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.logo {
-  width: 58%;
-  height: 58%;
-  margin-left: 23px;
-}
+
 /*
 .hamburguer_menu{
     display: flex;
@@ -46,11 +32,6 @@ body {
     background: #d0d6f9;
 }
 */
-.hamburguer_menu {
-  width: 48%;
-  height: 30%;
-  margin-right: 24px;
-}
 
 .info_home {
   position: relative;
@@ -112,6 +93,7 @@ h5 {
   letter-spacing: 1.25px;
   text-align: center;
 }
+
 .menu_left {
   display: none;
 }
@@ -123,14 +105,10 @@ h5 {
   right: 0;
   top: 0px;
   background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(81.5485px) ;
-  -webkit-backdrop-filter: blur(81.5485px)
+  backdrop-filter: blur(81.5485px);
+  -webkit-backdrop-filter: blur(81.5485px);
 }
-/*
-.active::-webkit-scrollbar {
-    backdrop-filter: blur(81.5485px) contrast(1);
-  }
-*/
+
 .closed_menu {
   margin: 32px 0px 0px 208px;
 }

@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Space Mono", monospace;
+}
+body {
+  background-image: url("../starter-code/assets/destination/background-destination-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  height: 88px;
+}
+/*MENU HAMBURGUESA*/
+.menu_left {
+  display: none;
+}
+.active {
+  display: inherit;
+  position: absolute;
+  width: 254px;
+  height: 100%;
+  right: 0;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+  -webkit-backdrop-filter: blur(81.5485px);
+}
+
+.closed_menu {
+  margin: 32px 0px 0px 208px;
+}
+
+ul {
+  margin-top: 61px;
+  margin-left: 33px;
+  list-style: none;
+}
+
+li {
+  min-width: 70px;
+  height: 19px;
+  left: 153px;
+  top: 118px;
+  margin-bottom: 32px;
+}
+li a {
+  height: 19px;
+  left: 41.43%;
+  right: 2.86%;
+  font-family: Barlow Condensed;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+/*FIN HAMBURGUESA*/
+.main_section-title {
+  font-family: Barlow Condensed;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+  text-align: center;
+}
+.image_main_section {
+  margin-top: 31px;
+  width: 170px;
+  height: 170px;
+  left: 103px;
+  top: 139px;
+}
+.list_link {
+  height: 17px;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 2.3625px;
+  color: #ffffff;
+}
+
+.navigate_section {
+  margin-top: 24px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.list {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name_planet {
+  margin-top: 30px;
+  width: 153px;
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5.6rem;
+  line-height: 6.4rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.concept_planets {
+  margin-top: 2px;
+  width: 327px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #d0d6f9;
+}
+.line {
+   margin-top: 31px;
+width: 100%;
+height: 1px;
+background: #383B4B;
+}
+.title{
+font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+letter-spacing: 2.3625px;
+color: #D0D6F9;
+}
+h2{
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+}
+.distance{
+    margin-top: 32px;
+}
+.distance h1{
+    margin-bottom: 12px;
+}
+.travel{
+    margin-top: 31px;
+}
+.travel h1{
+    margin-bottom: 12px;
+
+}
