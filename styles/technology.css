@@ -92,7 +92,7 @@ figcaption {
   margin-top: 14px;
 }
 .image_main_section-tech {
-  width: 374px;
+  width: 100vw;
   height: 170px;
   object-fit: cover;
   object-position: 0 87%;
