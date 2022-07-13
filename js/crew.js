@@ -5,18 +5,18 @@ const crew = async () => {
   const data = await response.json();
   data_crew = data.crew;
   //let longitud = data.crew.length;
- // console.log("array tamano " + longitud);
+  // console.log("array tamano " + longitud);
   move_slider(0);
   //console.log("buenas " + (data_crew.length - 1));
 };
 
 //FUNCION PARA MOVER DE FORMA AUTOMATICA EL SLIDER
-setInterval(addVal, 5000)
+setInterval(addVal, 5000);
 function addVal() {
   if (i === data_crew.length - 1) {
     i = 0;
     move_slider(i);
-    console.log("estoy mostrando el "+i);
+    console.log("estoy mostrando el " + i);
   } else {
     i = i + 1;
     move_slider(i);
@@ -24,9 +24,10 @@ function addVal() {
   }
 }
 
-
 crew();
 function move_slider(destination) {
+    //si da click con el slider automatico reajusta el item en donde se encuentra
+  i = destination;
   const div_container = document.getElementById("section_crew");
   let data_crew_front = data_crew[destination];
   div_container.innerHTML = `
