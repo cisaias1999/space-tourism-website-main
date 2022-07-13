@@ -1,12 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/crew.css" />
     <title>Crew</title>
-</head>
-<body>
-    
-</body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Menu de navegacion-->
+    <header>
+      <nav>
+        <figcaption>
+          <img
+            class="logo"
+            src="./starter-code/assets/shared/logo.svg"
+            alt=""
+          />
+        </figcaption>
+        <figcaption>
+          <img
+            class="hamburguer_menu"
+            src="./starter-code/assets/shared/icon-hamburger.svg"
+            alt=""
+          />
+        </figcaption>
+      </nav>
+    </header>
+
+    <section>
+      <section class="section_crew">
+        <h1 class="section_crew-title">02 MEET YOUR CREW</h1>
+
+        <figure class="section_crew_img">
+          <img
+            class="section_crew-img"
+            src="./starter-code/assets/crew/image-douglas-hurley.png"
+            alt=""
+          />
+        </figure>
+
+        <section class="section_main_info">
+          <section class="points_movement">
+            <div class="circle_crew"></div>
+            <div class="circle_crew"></div>
+            <div class="circle_crew"></div>
+            <div class="circle_crew"></div>
+          </section>
+          <section class="section_main_info-personal">
+            <h1 class="section_title_info-personal-crew">Commander</h1>
+            <h2 class="section_title_info-personal-name">Douglas Hurley</h2>
+            <p class="section_title_info-personal-info">
+              Douglas Gerald Hurley is an American engineer, former Marine Corps
+              pilot and former NASA astronaut. He launched into space for the
+              third time as commander of Crew Dragon Demo-2.
+            </p>
+          </section>
+        </section>
+      </section>
+    </section>
+
+    <section class="menu_right">
+      <figcaption>
+        <img
+          class="closed_menu"
+          src="./starter-code/assets/shared/icon-close.svg"
+          alt=""
+        />
+      </figcaption>
+      <ul>
+        <li>
+          <a href="./index.html"><span>00</span> HOME</a>
+        </li>
+        <li>
+          <a class="destination" href="./destination.html"
+            ><span>01</span> DESTINATION</a
+          >
+        </li>
+        <li>
+          <a href="/"><span>02</span> CREW</a>
+        </li>
+        <li>
+          <a href="./technology.html"><span>03</span> TECHNOLOGY</a>
+        </li>
+      </ul>
+    </section>
+    <script src="./js/home.js"></script>
+  </body>
 </html>
