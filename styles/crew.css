@@ -9,7 +9,7 @@ html {
   font-family: "Space Mono", monospace;
 }
 body {
-  background-image: url("../starter-code/assets/technology/background-technology-mobile.jpg");
+  background-image: url("../starter-code/assets/crew/background-crew-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -65,82 +65,69 @@ li a {
 a {
   text-decoration: none;
 }
+/*FIN HAMBURGUESA*/
 
-/*FIN MENU HAMBURGUESA*/
+/*main section*/
 
-.main_section-title-tech {
-  width: 100%;
-  height: 230px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-.main_section-title-tech-title {
+.section_crew-title {
   font-family: "Barlow Condensed";
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.9rem;
-  letter-spacing: 0.27rem;
+  letter-spacing: 2.7px;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 18px;
+  text-align: center;
 }
-
-figcaption {
-  margin-top: 14px;
+figure {
+  margin-top: 32px;
+  text-align: center;
 }
-.image_main_section-tech {
-  width: 100vw;
-  height: 170px;
-  object-fit: cover;
-  object-position: 0 87%;
+.section_crew-img {
+  width: 327px;
+  height: 223px;
+  object-fit: contain;
+  border-bottom-width: 1px;
+  border-bottom-color: #383b4b;
+  border-bottom-style: solid;
 }
-.secondary_section-title-tech {
+.section_main_info,
+.section_main_info-personal {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 24px;
+  justify-content: center;
 }
-.movement_page {
-  width: 152px;
-  height: 40px;
+.circle_crew {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.points_movement {
+  margin-top: 29px;
+  width: 88px;
+  height: 10px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
-.link_page_technology {
-  width: 40px;
-  height: 40px;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 50%;
-  background: transparent;
-  color: #ffffff;
-  opacity: 25;
-}
 
-.secondary_section-title-tech h1,
-h2,
-p {
-  width: 327px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.titles_page-primary {
-  font-family: "Barlow Condensed";
+.section_title_info-personal-crew {
+  margin-top: 32px;
+  font-family: "Bellefair";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 1.7rem;
-  letter-spacing: 2.3625px;
-  color: #d0d6f9;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
   text-align: center;
-  margin-top: 27px;
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
 }
-.titles_page-secondary {
+.section_title_info-personal-name {
+  margin-top: 8px;
   font-family: "Bellefair";
   font-style: normal;
   font-weight: 400;
@@ -149,10 +136,9 @@ p {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 9px;
 }
-
-.paragrapho_page {
+.section_title_info-personal-info {
+  margin-top: 17px;
   font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
@@ -160,5 +146,5 @@ p {
   line-height: 2.5rem;
   text-align: center;
   color: #d0d6f9;
-  margin-top: 17px;
+  width: 90%;
 }
